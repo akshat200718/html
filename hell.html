@@ -6,15 +6,37 @@
     <title>Document</title>
     <style>
     body {
-        font-family: 'segoe ui';, sans-serif;
-        background-color :#314d7a;
-        color: white;        
+        font-family: 'segoe ui'; sans-serif ;
+        color: #22577A;
+        background-color: #99CDD8
+        ;        
+        
+        }
+        .form{
+            background-color: #DAEBE3;
+            color: black;
+            width: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+            }
+            .table{
+                background-color: #a7678d;
+                color:#FDE8D3;
+                rgba(0, 0, 0, 0.8);
+                width: 200px;
+                padding: 20px;
+                border-radius: 10px;
+                height:min-content;}
+        h1{
+            color: #F9F5E3;
+            font-family:'Courier New', Courier, monospace;
         }
     </style>
 </head>
 <body> 
     <header> <center>
-    <h1 style = "color: rgb(58, 192, 129)">☠︎︎ MY SITE ☠︎︎ </h1> <hr>
+    <h1 >☠︎︎ MY SITE ☠︎︎ </h1> <hr>
     </header></center>
     <main>
        <center> <b> <u><p>Welcome to my site!</p></u></b></center> 
@@ -35,9 +57,11 @@
             
                 <li> begampur </li>
             </ol>
-    <center>
-            <table>  <table border="1">  
-        <caption> Student Information </caption>      
+    <center><DIV class="table"> 
+        <caption><b> Student Information </b></caption><br>
+            <table>  <table border="1">
+            
+           
     <tr>
         <th>  name </th>
         <th> class </th>
@@ -53,11 +77,11 @@
         <td> 12th </td>
         <td> 72% </td>
     </tr>
-    </table> </center>
+    </table> </center> </div>
     </main><br><br><pre>
   <i>            If you like my work and you wanted to give me contract then submit your details below </i><br></pre>
     <br>
-    <form action="https://formspree.io/f/mqeozyqd" method="POST" ><pre>
+    <form class="form",action="https://formspree.io/f/mqeozyqd" method="POST" ><pre>
     NAME:-  <input type = "text" placeholder="username" name="name" id="name" required><br> 
     EMAIL:- <input type = "email" placeholder="email" name="email" id="email" required><br>
     PASS:-  <input type = "password"  placeholder = "password" required><br></pre>
@@ -72,7 +96,7 @@
          <b><u> <h3>your review</h3></u> </b> 
         <textarea name="feedback" id="feedback" cols="30" rows="4" placeholder="write your review here"></textarea>
         <input type= "submit" value="Submit" > 
-    </form>
+    </form> 
     <hr><footer>
        <center> <p style="color: black;">&copy; 2026 My Site. All rights reserved.<BR>
          CONATCT :- 9416218028</center>

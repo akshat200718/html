@@ -1,0 +1,39 @@
+body{
+    background-color: #0a2041;
+}
+div {
+    width: 1400px;
+    height: 60px;
+    background-color: #0f1111;
+    border : 4px solid #e3e7e7;
+    gap: 200px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+p{
+    text-align: left;
+    color:rgb(184, 124, 11);
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    width:fit-content;
+    
+}
+#one{ 
+   text-decoration:none; 
+    color:#e3e7e7;
+}
+#two{
+    text-decoration:none;   
+    color:#e3e7e7;
+}   
+#three{
+    text-decoration:none;
+    color:#e3e7e7;
+}
+
+button{
+    background-color: #f08804;
+    color: white;
+}

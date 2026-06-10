@@ -1,17 +1,18 @@
 body{
-    background-color: #0a2041;
+    background-color: #f5f7f9;
+    text-align: center;
 }
-div {
+.header{
     width: 1400px;
     height: 60px;
     background-color: #0f1111;
     border : 4px solid #e3e7e7;
     gap: 200px;
     display: flex;
-    align-items: center;
+    align-items: center; 
     padding: 10px;
 }
-p{
+#logo{
     text-align: left;
     color:rgb(184, 124, 11);
     font-size: 25px;
@@ -36,4 +37,52 @@ p{
 button{
     background-color: #f08804;
     color: white;
+}
+.container{
+    
+    gap: 10px;
+    height:300px;
+    border:4px solid black;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top:0;
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: #209e0d;
+    
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color:#b0129b;
+    
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: #0c7575;
+    
+}
+@media( max-width: 300px){
+    .box2{background-color: #236123;
+    }
+    
+}
+@media( min-width: 300px)and (max-width: 400px){
+    .box2{background-color: #f41c93;
+    }
+    
+}
+@media( min-width: 400px)and (max-width: 600px){
+    .box2{background-color: #d9080882;
+    }
+    
+}
+@media( min-width: 600px){
+    .box2{background-color: #0a78d8d3;
+    }
+    
 }

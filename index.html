@@ -16,12 +16,20 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+        transition-property: all;
+        transition-duration: .7s;
+        transition-timing-function:steps(4);
       }
         .owner h1 {
           margin: 0;}
           .owner img {
             border-radius: 50%;
           }
+          .owner:hover{
+            color: rgb(12, 153, 240);
+          } 
+            
+
       img:hover{
         transform: scale(1.1);
         transition: transform 0.3s ease;

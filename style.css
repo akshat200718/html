@@ -55,26 +55,27 @@ button{
     background-color: #209e0d;
     animation-name: mvbox1;
     animation-timing-function:ease;
-    animation-duration: 1s;
+    animation-duration: 4s;
     animation-direction:alternate;
     animation-iteration-count:infinite;
     animation-fill-mode: forwards;
     animation-delay: 2s;   
 }
 @keyframes mvbox1{
-    from{
-        transform:rotate(0)
-        translateX(0);
-     background-color: #209e0d;}
-    to{ transform: rotate(360deg)
-        translateX(-380px);
-    background-color: #f41c93;}
+    from{ transform:rotate(0)
+          translateX(0);
+          border-radius: 0;
+          background-color: #209e0d;}
+    to{ transform: rotate(720deg)
+        translateX(-380px) scale(1.5);
+        background-color: #f41c93;
+        border-radius: 50%; }
 }
 
 
 .box1:hover{
             /* transform: rotate(360deg); */
-            transition: transform 0.7s linear;
+            /* transition: transform 0.7s linear; */
             animation-play-state: paused;
         }
 .box2{

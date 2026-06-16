@@ -63,13 +63,17 @@ button{
 }
 @keyframes mvbox1{
     from{
-        transform:translateY(0);}
-    to{ transform: translateY(200px);}
+        transform:rotate(0)
+        translateX(0);
+     background-color: #209e0d;}
+    to{ transform: rotate(360deg)
+        translateX(-380px);
+    background-color: #f41c93;}
 }
 
 
 .box1:hover{
-            transform: rotate(360deg);
+            /* transform: rotate(360deg); */
             transition: transform 0.7s linear;
             animation-play-state: paused;
         }
@@ -87,7 +91,8 @@ button{
 }
 @keyframes mvbox2{
     from{
-        transform:translateY(0);}
+        transform:translateY(0)
+        ;}
     to{ transform: translateY(200px);}
 }
 .box2:hover{
@@ -114,6 +119,25 @@ button{
     from{left: 0px;}
     to{ left:400px}
 }
+.box4{
+    background-color: darkslateblue;
+    width: 100px;
+    height: 100px;
+    animation-name: mvbox4;
+    animation: mvbox4 1s ease infinite 2s normal forwards;
+    animation-direction: alternate;
+}
+.box4:hover{
+    animation-play-state: paused;
+}
+ 
+@keyframes mvbox4{
+    from{ transform: translateX(0);
+        background-color:darkslateblue ; }
+    to{ transform: translateX(-400px);
+    background-color: #0ad80ad3;}
+}
+
 @media( max-width: 300px){
     .box2{background-color: #236123;
     }

@@ -19,6 +19,10 @@
         transition-property: all;
         transition-duration: .7s;
         transition-timing-function:steps(4);
+        /* animation-name: namesss;
+        animation: namesss 3s ease-in 50;
+        animation-direction: normal; */
+      
       }
         .owner h1 {
           margin: 0;}
@@ -27,8 +31,7 @@
           }
           .owner:hover{
             color: rgb(12, 153, 240);
-          } 
-            
+          }  
 
       img:hover{
         transform: scale(1.1);
@@ -46,6 +49,10 @@
       .preet img {
         border-radius: 10%;
       }
+      .preet :hover{
+            transform: rotate(360deg);
+            transition: transform 0.7s linear;
+        }
       .netmirror{
         display: flex;
         justify-content: center;
@@ -54,6 +61,11 @@
       }
       .netmirror img {
         border-radius: 10%;}
+        
+      @keyframes namesss{
+        from {left: 0px;}
+        to {left: 200px}
+      }
        
         </style>  
 </head>
